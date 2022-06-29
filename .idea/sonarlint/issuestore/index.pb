@@ -13,9 +13,3 @@ a
 1src/main/java/co/com/screenplay/tasks/OpenUp.java,a\a\aaa81126eb1f990ffd76eca387da83e96daa713b
 l
 <src/main/java/co/com/screenplay/userinterface/LoginPage.java,f\2\f2329ff9ebf61c5b9938b17a0c9db319cc1824e1
-s
-Csrc/main/java/co/com/screenplay/userinterface/SearchHotelsPage.java,9\0\90490110fe933f4e74363ec26502ae616c98a443
-q
-Asrc/main/java/co/com/screenplay/userinterface/PhpTravelsPage.java,3\6\3614cf6b838ac2fc2ab749801544dbe8cb422c49
-g
-7src/main/java/co/com/screenplay/tasks/SearchHotels.java,0\3\030602771a0770eda22be54a4f2cf35327fb53a0
