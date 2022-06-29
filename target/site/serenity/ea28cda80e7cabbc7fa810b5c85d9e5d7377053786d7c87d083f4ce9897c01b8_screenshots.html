@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="6adc53741e03d4ade1bac2edae687be8434b9918e7c00f83aa2e42ac4fb42a23.html">Php Travels</a></span>
+                > <span class="truncate-60"><a
+                    href="ea28cda80e7cabbc7fa810b5c85d9e5d7377053786d7c87d083f4ce9897c01b8.html">reserva de hotel </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-06-2022 00:00</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Php Travels </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Yo como usuario
+Quiero hacer una reserva en el hotel phptravles
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="acc5f22d140bebc1649f2783b0a51de3687206e05bb2a0362b1687bfef9448f9.html">Phptravels1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">reserva de hotel
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2da09955a10b38c246fe0dbdc8e2e73b55c4430cf9afb6dd919cd4e4cd1b26bf.png" title="Given dado que usuario ingrese a phptravels" width="1920"/>
+                <img src="a9cf7769deb42c5436dab5ea2b0f5497e9a690c9a258da2f730a2b6dbdf82678.png" title="usuario opens the Php travels page" width="1920"/>
+                <img src="c576a4d081c218c66b47faad0273f5121b6c9901d65953a0421546537b82ac1b.png" title="usuario enters 'divirinho09@gmail.com' into Llenar campos de email" width="1920"/>
+                <img src="f5e50dbc4db335179d8dec26e07127f904bae04eab00f0d3c7d07d60ebe4c3ea.png" title="usuario enters 'Hola1234@@' into Lenar campo password" width="1920"/>
+                <img src="b513e7a39c4030e7863634f6ffe5609029756ca993214bdd41e520303e18ed04.png" title="usuario clicks on Dar clic en el boton Log In" width="1920"/>
+                <img src="acf0838518df249115650503331a8ddb36acd21b61bb8ce7aea18ea27b30af5c.png" title="When ingresa al modulo de hotels" width="1920"/>
+                <img src="f4e5d527b84bbe0a103b28636d07d6a6e1d0ce17bdb40a6a9002ce2e872fd28a.png" title="usuario clicks on Dar clic en hotels" width="1920"/>
+                <img src="018a5a1de634879510854191f1cce957629659692c267e5a5d39bf41d2b20d2b.png" title="usuario clicks on Dar clic para buscar el pais singapore" width="1920"/>
+                <img src="de294956fdcfd6adf933897da7ab22ee9ca6d1f0d8bf4994893d5d41212f309d.png" title="usuario enters 'Singapore' into Enviar nombre del pais" width="1920"/>
+                <img src="e98072ce9ed3842e06355c1a1ac574cc297feadb43a839fc3b4611149ee6eaec.png" title="Then Seleccioanr pais resultante should be an element that is visible" width="1920"/>
+                <img src="b59b67aa6714461463b5f4ff9d227d3546d94ea5d884ec354e4c5e894e3c14c2.png" title="usuario clicks on Seleccioanr pais resultante" width="1920"/>
+                <img src="4a5a81704eedb3af4584848fc5e4891e2c4d2d339aea9cbcf6102bac13548460.png" title="usuario clicks on Seleccioanr nuemro de pasajeros" width="1920"/>
+                <img src="93747bf33c5a1df771ce8d8c494db781b9bf69c4560824a5184d2fd51b7f771e.png" title="usuario clicks on 0 habitaciones" width="1920"/>
+                <img src="5bf3cd9ca177d43c81dddee76a6192b075460f8f86d0f43a9b1362eafbfc20d4.png" title="usuario clicks on Boton para seguir a la siguiente pagina" width="1920"/>
+                <img src="2d1d633b1927446b50e16f7889fab848a6d29bafdcb4482f76cf029f862fc6e2.png" title="Then podra hacer una reserva en el hotel: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
